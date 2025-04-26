@@ -2,41 +2,25 @@
 <html lang = "fr">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title> Inscription</title>
-        <style>
-            body {
-                font-family:Arial, sans-serif ;
-                max-width :500px; ;
-                margin: 20px;
-                padding: 30px;
-                border: 1px solid #ccc;
-                border-radius: 10px ;
-
-            }
-            label {
-                display: block;
-                margin-top:15 px ;
-            }
-            input, select {
-                width:100%;
-                padding: 8px; ;
-                margin: top 5px; ;
-                border: 5px;;
-                border-radius: 1 px solid #999;
-            }
-            button {
-                margin-top: 20px;
-                padding: 10px;
-                width: 100%;
-                background-color:#007bff ;
-                color: white ;
-                border:none ;
-                border-radius: 5px;
-                font-size: 16px;
-            }
-            button:hover {
-                background-color: #0056b3;
-            }
-        </style>
     </head>
+<body>
+    <div class="form-container">
+        <h2>Formulaire d'inscription</h2>
+
+        <form action="#" method="POST">
+
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom"  required>
+
+          <label for="prenom">Prénom :</label>
+          <input type="text" id="prenom" name="prenom"  required>
+
+          <label for="dob">Date de naissance: :</label>
+          <input type="date" id="dob" name="dob"  required>
+        </form>
+    </div>
+</body>
 </html>
