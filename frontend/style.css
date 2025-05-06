@@ -1,33 +1,89 @@
 body {
-    font-family:Arial, sans-serif ;
-    max-width :500px; ;
-    margin: 20px;
-    padding: 30px;
-    border: 1px solid #ccc;
-    border-radius: 10px ;
-
+    background-color: #ffffff;
+    background-image: url("wallpaper.jpg");
+    padding: 30px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 60%;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+a {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 60%;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1 {
+    padding: 30px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    color: #000;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container {
+    background-color: #ffffff;
+    background-image: url("wallpaper.jpg");
+    padding: 30px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 40%;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 label {
     display: block;
-    margin-top:15 px ;
+    margin-top: 15px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 input, select {
-    width:100%;
-    padding: 8px; ;
-    margin: top 5px; ;
-    border: 5px;;
-    border-radius: 1 px solid #999;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 button {
     margin-top: 20px;
     padding: 10px;
     width: 100%;
-    background-color:#007bff ;
-    color: white ;
-    border:none ;
+    background-color: #007bff;
+    color: white;
+    border: none;
     border-radius: 5px;
     font-size: 16px;
+    cursor: pointer;
+    display: block;
 }
+
 button:hover {
-    background-color: #0056b3;
+    background-color: #04AA6D;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
 }

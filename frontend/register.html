@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
         <title> Inscription</title>
+        <link rel="stylesheet" href="style.css">
+
     </head>
 <body>
     <div class="form-container">
@@ -12,14 +13,44 @@
 
         <form action="#" method="POST">
 
-          <label for="nom">Nom :</label>
-          <input type="text" id="nom" name="nom"  required>
+            <label for="role">Je suis :</label>
+            <select id="role" name="role" required>
+                <option value="">-- Choisir un rôle --</option>
+                <option value="etudiant">Étudiant</option>
+                <option value="professeur">Professeur</option>
+            </select>
+        
 
-          <label for="prenom">Prénom :</label>
-          <input type="text" id="prenom" name="prenom"  required>
+            <label for="email">Adresse Email</label>
+            <input type="email" placeholder="Entrer Email" name="email" id="email" required><br>
 
-          <label for="dob">Date de naissance: :</label>
-          <input type="date" id="dob" name="dob"  required>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom"  required>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom"  required>
+
+        <label for="dob">Date de naissance:</label>
+        <input type="date" id="dob" name="dob"  required>
+
+        
+        <label for="role">Sexe :</label>
+            <select id="role" name="role" required>
+                <option value="">-- Choisir --</option>
+                <option value="etudiant">Homme</option>
+                <option value="professeur">Femme</option>
+            </select>
+        
+            
+          
+        <label for="text">établissement</label>
+        <input type="estab" placeholder="nom d'établissment" name="estab" id="estab" required><br>
+
+        <label for="field">Filière</label>
+        <input type="text" placeholder="nom de la filière" name="field" id="field" required><br>
+
+
+        <input type="submit" value="S'inscrire">
         </form>
     </div>
 </body>
